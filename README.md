@@ -19,13 +19,13 @@
 
 ### `quality-review`
 
-코드 변경 직후 점검 묶음.
+코드 변경 직후 점검 묶음. 언어 중립으로 작성됐고 각 항목에 Go/Python/JS·TS/Rust 등 주요 언어 예시가 포함됨.
 
 - **skill `self-review`** — 직전 변경분(diff)을 스스로 검토해 편집 위생(edit hygiene) 이슈를 잡고 가벼운 수정은 즉시 반영.
-- **skill `refactor-scan`** — 변경된 코드 또는 지정 패키지를 스캔해 리팩토링 후보를 우선순위로 제안. 코드 수정은 하지 않음.
+- **skill `refactor-scan`** — 변경된 코드 또는 지정 패키지/모듈을 스캔해 리팩토링 후보를 우선순위로 제안. 코드 수정은 하지 않음.
 - **agent `code-reviewer`** — fresh context에서 diff를 독립 검토하는 sub-agent. 비-trivial 변경 후 호출.
 
-원래 Go 프로젝트에서 추출됐고, 일부 항목은 Go 특화(예: `gofmt`, `go vet`). 다른 언어 프로젝트에서도 추상화 일치·책임 분리·들여쓰기 평탄화 등 일반 원칙은 그대로 적용 가능.
+프로젝트의 스타일 가이드, 빌드/테스트/포맷터/linter 명령은 `.claude/rules/*.md`, `CLAUDE.md`, `package.json`/`Makefile`/CI 설정 등에서 자동으로 찾아 적용한다.
 
 ### `retrospect`
 
