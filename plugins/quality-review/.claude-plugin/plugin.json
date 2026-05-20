@@ -1,0 +1,8 @@
+{
+  "name": "quality-review",
+  "description": "코드 변경 직후 점검 묶음 — self-review와 refactor-scan skill, 독립 code-reviewer agent.",
+  "version": "0.1.0",
+  "author": {
+    "name": "icarus8050"
+  }
+}

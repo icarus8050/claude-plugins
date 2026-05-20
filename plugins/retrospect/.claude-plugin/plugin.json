@@ -1,0 +1,8 @@
+{
+  "name": "retrospect",
+  "description": "방금 완료한 작업 구간을 회고해 재사용 가능한 패턴을 스킬·규칙·메모리에 반영하는 메타-학습 skill.",
+  "version": "0.1.0",
+  "author": {
+    "name": "icarus8050"
+  }
+}
