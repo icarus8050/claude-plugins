@@ -1,0 +1,8 @@
+{
+  "name": "commit-discipline",
+  "description": "commit/push 행위의 승인 가드레일과 스테이징 위생 — 명시적 요청 1회만 유효, cycle별 새 승인, 파일명 개별 지정.",
+  "version": "0.1.0",
+  "author": {
+    "name": "icarus8050"
+  }
+}
